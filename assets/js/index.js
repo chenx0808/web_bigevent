@@ -17,7 +17,7 @@ function getUserInfo() {
 
 // 渲染用户信息
 const renderAvatar = (user) => {
-  console.log(user);
+  // console.log(user);
   let uname = user.nickname || user.username;
   //   console.log(uname);
   //   渲染欢迎语
